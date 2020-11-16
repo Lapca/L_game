@@ -83,7 +83,9 @@ def input_move(board_state):
     
     move = input('Enter your move: ')
     is_valid, move_imp = check_move(move)
+    # move_imp needs definition
     if is_valid:
+        print_board
         # print, continue
     else:
         # retry enter your move
